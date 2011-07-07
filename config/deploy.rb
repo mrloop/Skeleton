@@ -5,10 +5,9 @@ set :deploy_via, :copy
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-role :web, "mrloop.com"                          # Your HTTP server, Apache/etc
-role :app, "mrloop.com"                          # This may be the same as your `Web` server
+role :web, "mrloop"                          # Your HTTP server, Apache/etc
+role :app, "mrloop"                          # This may be the same as your `Web` server
 
-set :user, "mrloop"
 set :deploy_to, "~/cap_deploy"
 
 after 'deploy', 'remote:create_symlink'
