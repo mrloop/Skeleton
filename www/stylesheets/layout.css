@@ -53,6 +53,8 @@ li.twitter {background: url(../images/twitter.png) no-repeat 0% 0%;}
 li.github {background: url(../images/github.png) no-repeat 0% 0%;}
 li.linkedin {background: url(../images/linkedin.png) no-repeat 0% 0%;}
 li.email {background: url(../images/email.png) no-repeat 0% 0%;}
+li.blog {background: url(../images/blog.png) no-repeat 0% 0%;}
+
 
 .about p{ font-size: 21px; line-height: 27px}
 .about a{ text-decoration: none; font-weight: bold}
