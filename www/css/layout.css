@@ -32,7 +32,7 @@ ul.links li{
   padding-left: 21px
 }
 
-.about p{ font-size: 21px; line-height: 27px}
+.about p{ font-size: 1.5em; line-height: 1.6em}
 .about a{ text-decoration: none; font-weight: bold}
 .about a:hover{ text-decoration: underline }
 
@@ -53,6 +53,7 @@ a{ color: black }
     padding-left: 0px;
     padding-right: 21px;
   }
+  .about p{ font-size: 1.2em; line-height: 1.3em}
 }
 
 /* #Font-Face
@@ -69,15 +70,3 @@ a{ color: black }
     font-style: normal;
 
 }
-
-/*
-	@font-face {
-	    font-family: 'FontName';
-	    src: url('../fonts/FontName.eot');
-	    src: url('../fonts/FontName.eot?iefix') format('eot'),
-	         url('../fonts/FontName.woff') format('woff'),
-	         url('../fonts/FontName.ttf') format('truetype'),
-	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
-*/
