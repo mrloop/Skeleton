@@ -1,37 +1,15 @@
-/*
-* Skeleton V1.0.2
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 5/20/2011
-*/
-
-/* Table of Content
-==================================================
-	#Site Styles
-	#Page Styles
-	#Media Queries
-	#Font-Face */
-	
-/* #Site Styles
-================================================== */
-
-
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}	
+}
 
 body {
   font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
-}	
-
-
-
+  color: #444;
+}
 
 .company {
   font: 60px 'Pincoyablack', Arial, sans-serif;
+  color: black;
   letter-spacing: 0;
   margin-bottom: 0px;
 }
@@ -45,16 +23,14 @@ body {
 .location a { text-decoration: none }
 .location a:hover { text-decoration: underline }
 
-ul.links li{
-    padding-left: 21px
+ul.links {
+  list-style: none;
 }
 
-li.twitter {background: url(../images/twitter.png) no-repeat 0% 0%;}
-li.github {background: url(../images/github.png) no-repeat 0% 0%;}
-li.linkedin {background: url(../images/linkedin.png) no-repeat 0% 0%;}
-li.email {background: url(../images/email.png) no-repeat 0% 0%;}
-li.blog {background: url(../images/blog.png) no-repeat 0% 0%;}
-
+ul.links li{
+  color: black;
+  padding-left: 21px
+}
 
 .about p{ font-size: 21px; line-height: 27px}
 .about a{ text-decoration: none; font-weight: bold}
@@ -62,33 +38,22 @@ li.blog {background: url(../images/blog.png) no-repeat 0% 0%;}
 
 .links a{ text-decoration: none }
 
+a{ color: black }
+
+
 /* #Page Styles
 ================================================== */
 
 /* #Media Queries
 ================================================== */
-	
-	/* iPad Portrait/Browser */
-	@media only screen and (min-width: 768px) and (max-width: 991px) {}
-	
-	/* Mobile/Browser */
-	@media only screen and (max-width: 767px) {}
-	
-	/* Mobile Landscape/Browser */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
-	
-	/* Anything smaller than standard 960 */
-	@media only screen and (max-width: 959px) {}
-	
-	/* iPad Portrait Only */
-	@media only screen and (min-width: 768px) and (max-width: 991px) and (max-device-width: 1000px) {}
-	
-	/* Mobile Only */
-	@media only screen and (max-width: 767px) and (max-device-width: 1000px) {}
-	
-	/* Mobile Landscape Only */
-	@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {}
-	
+
+@media only screen and (max-width: 549px){
+  ul.links li{
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 21px;
+  }
+}
 
 /* #Font-Face
 ================================================== */
