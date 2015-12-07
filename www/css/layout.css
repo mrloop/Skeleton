@@ -40,6 +40,8 @@ ul.links li{
 
 a{ color: black }
 
+p
+  span.mrloop{ color: black }
 
 /* #Page Styles
 ================================================== */
