@@ -41,9 +41,8 @@ ul.links li{
 a{ color: black }
 
 .mrloop {
-  font: 2.4rem 'Pincoyablack', Arial, sans-serif;
   color: black;
-  letter-spacing: 0;
+  font-weight: bold;
 }
 
 /* #Page Styles
