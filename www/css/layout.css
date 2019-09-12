@@ -1,15 +1,28 @@
+:root {
+  --body-color: #efefef;
+  --font-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-color: black;
+    --font-color: #efefef;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
   font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
-  color: #444;
+  color: var(--font-color);
+  background-color: var(--body-color);
 }
 
 .company {
   font: 60px 'Pincoyablack', Arial, sans-serif;
-  color: black;
+  color: var(--font-color);
   letter-spacing: 0;
   margin-bottom: 0px;
 }
@@ -28,7 +41,7 @@ ul.links {
 }
 
 ul.links li{
-  color: black;
+  color: var(--font-color);
   padding-left: 21px
 }
 
@@ -38,10 +51,12 @@ ul.links li{
 
 .links a{ text-decoration: none }
 
-a{ color: black }
+a {
+  color: var(--font-color);
+}
 
 .mrloop {
-  color: black;
+  color: var(--font-color);
   font-weight: bold;
 }
 
