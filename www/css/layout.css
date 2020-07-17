@@ -37,7 +37,7 @@ main {
   padding: 0 1.4em;
   display: grid;
   grid-template-rows: auto;
-  grid-template-coloums: 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "header"
     "article"
@@ -151,7 +151,7 @@ a { color: var(--font-color); }
 
 @media only screen and (min-width: 549px){
   main {
-    grid-template-coloums: 1fr 40px;
+    grid-template-columns: 1fr auto;
     grid-template-areas:
       "header header"
       "article aside"
