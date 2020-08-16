@@ -65,6 +65,13 @@ footer {
   border-top: 1px solid #E1E1E1;
   padding-top: 2em;
   grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+footer > span {
+  margin-bottom: 1em;
 }
 
 .company {
@@ -177,6 +184,10 @@ a { color: var(--font-color); }
   }
 
   article p{ font-size: 1.5em; line-height: 1.6em}
+
+  footer {
+    flex-direction: row;
+  }
 }
 
 @font-face {
