@@ -15,10 +15,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-h5 {
-  margin: 0 0 3em 0;
-}
-
 p {
   font-weight: 400;
 }
@@ -83,9 +79,9 @@ footer > span {
 }
 
 .location {
+  font-size: 12px;
   letter-spacing: 1px;
-  font-size:12px
-
+  margin: 0 0 3em 0;
 }
 
 .location a { text-decoration: none }
