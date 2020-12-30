@@ -189,11 +189,7 @@ a { color: var(--font-color); }
 
 @font-face {
     font-family: 'Pincoyablack';
-    src: url('../fonts/Pincoyablack/pincoyablack-webfont.eot');
-    src: url('../fonts/Pincoyablack/pincoyablack-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Pincoyablack/pincoyablack-webfont.woff') format('woff'),
-         url('../fonts/Pincoyablack/pincoyablack-webfont.ttf') format('truetype'),
-         url('../fonts/Pincoyablack/pincoyablack-webfont.svg#PincoyablackBlack') format('svg');
+    src: url('../fonts/pincoyablack.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -201,13 +197,7 @@ a { color: var(--font-color); }
 
 @font-face {
   font-family: 'mrloop';
-  src: url('../fonts/mrloop.eot?39991697');
-  src: url('../fonts/mrloop.eot?39991697#iefix') format('embedded-opentype'),
-        url('../fonts/mrloop.woff?39991697') format('woff'),
-        url('../fonts/mrloop.ttf?39991697') format('truetype'),
-        url('../font<i class="demo-icon icon-paper-plane"></i>s/mrloop.svg?39991697#mrloop') format('svg');
+  src: url('../fonts/mrloop.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
-
-
